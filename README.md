@@ -1,4 +1,5 @@
 # cpp07 - ex00
+------
 
 The `template <typename T>` syntax in C++ is used to define a template, which allows you to create functions, classes, or structures that work with different data types without being rewritten for each type.
 
@@ -55,3 +56,11 @@ A template in C++ provides a way to create generic, reusable code. Instead of wr
        std::cout << doubleBox.getValue() << std::endl;
    }
    ```
+
+
+## ex02
+------
+
+1. **`Array.hpp`**: Combine the header and implementation for the `Array` class template.
+2. **`Array.tpp`**: Defines the template member functions (though this is optional if `Array.hpp` is used for both declaration and definition).
+3. **`main.cpp`**: Contains test code.
