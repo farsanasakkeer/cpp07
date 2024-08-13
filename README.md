@@ -126,4 +126,4 @@ By using a function pointer, you make the `iter` function adaptable to different
 2. **`Array.tpp`**: Defines the template member functions (though this is optional if `Array.hpp` is used for both declaration and definition).
 3. **`main.cpp`**: Contains test code.
 
-
+The `operator[]` function in the Array class is used to access elements in the array using subscript notation (array[index]).
